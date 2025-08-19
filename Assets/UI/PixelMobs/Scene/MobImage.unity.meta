@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 850d30274adf44741b062b732392dcef
+timeCreated: 1451755207
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 54995
+  packageName: Pixel Mobs
+  packageVersion: 1.0
+  assetPath: Assets/PixelMobs/Scene/MobImage.unity
+  uploadId: 239015
