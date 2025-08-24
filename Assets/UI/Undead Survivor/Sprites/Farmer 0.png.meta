@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run1
+      name: Run 1
       rect:
         serializedVersion: 2
         x: 19
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run3
+      name: Run 3
       rect:
         serializedVersion: 2
         x: 0
@@ -423,11 +423,11 @@ TextureImporter:
       Dead 0: 555337127
       Dead 1: -1827510077
       Run 0: -2070438892
+      Run 1: -615706574
       Run 2: 715203569
+      Run 3: -1996622769
       Run 4: -1292166603
       Run 5: -75049234
-      Run1: -615706574
-      Run3: -1996622769
       Stand 0: -1931799314
       Stand 1: -1345647740
       Stand 2: 1328642068
