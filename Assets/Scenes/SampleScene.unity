@@ -554,6 +554,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameTime: 0
   maxGmaeTime: 20
+  level: 0
+  kill: 0
+  exp: 0
+  nextExp: 03000000050000000a0000006400000096000000d20000001801000068010000c201000058020000
   pool: {fileID: 923146183}
   player: {fileID: 13523928}
 --- !u!4 &199900994
