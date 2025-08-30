@@ -19,18 +19,30 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (!GameManager.Instance.isLive)
+        {
+            return;
+        }
         inputVec.x = Input.GetAxisRaw("Horizontal");
         inputVec.y = Input.GetAxisRaw("Vertical");
     }
 
     private void FixedUpdate()
     {
+        if (!GameManager.Instance.isLive)
+        {
+            return;
+        }
         Vector2 nextVec = inputVec.normalized * speed *Time.fixedDeltaTime;
         rigid.MovePosition(rigid.position + nextVec);
     }
 
     private void LateUpdate()
     {
+        if (!GameManager.Instance.isLive)
+        {
+            return;
+        }
         anim.SetFloat("Speed", inputVec.magnitude);
 
         if(inputVec.x != 0)

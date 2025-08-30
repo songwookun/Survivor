@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e049a7bec022d0a48b7bfbd1ce0160d7, type: 3}
+  m_Name: item 4
+  m_EditorClassIdentifier: 
+  itmeType: 4
+  itemId: 4
+  itemName: "\uC74C\uB8CC\uC218"
+  itemDesc: "HP \uC804\uCCB4 \uD68C\uBCF5"
+  itemIcon: {fileID: -1932616840827465609, guid: fae6f03673685c34796ad519788551a6,
+    type: 3}
+  baseDamge: 0
+  baseCount: 0
+  damages:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  counts: 0000000000000000000000000000000000000000
+  projecttile: {fileID: 0}
