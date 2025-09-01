@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         health = maxHealth;
 
         player.gameObject.SetActive(true);
-        uiLevelUp.Select(playerId % 2);      
+        uiLevelUp.Select(playerId % 2);
         isLive = true;
         Resume();
     }
@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
         uiResult.gameObject.SetActive(true);
         uiResult.Lose();
-        Stop(); 
+        Stop();
     }
 
     public void GameVictroy()
@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
         }
         gameTime += Time.deltaTime;
 
-        if(gameTime > maxGmaeTime)
+        if (gameTime > maxGmaeTime)
         {
             gameTime = maxGmaeTime;
             GameVictroy();
@@ -95,12 +95,12 @@ public class GameManager : MonoBehaviour
 
     public void GetExp()
     {
-        if(!isLive)
+        if (!isLive)
             return;
 
         exp++;
 
-        if(exp == nextExp[Mathf.Min(level, nextExp.Length-1)])
+        if (exp == nextExp[Mathf.Min(level, nextExp.Length - 1)])
         {
             level++;
             exp = 0;

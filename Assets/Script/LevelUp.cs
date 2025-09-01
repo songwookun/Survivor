@@ -15,21 +15,21 @@ public class LevelUp : MonoBehaviour
     public void Show()
     {
         Next();
-        rect.localScale = Vector3.one;      
+        rect.localScale = Vector3.one;
         GameManager.Instance.Stop();
     }
 
     public void Hide()
     {
-        rect.localScale = Vector3.zero;       
+        rect.localScale = Vector3.zero;
         GameManager.Instance.Resume();
     }
 
     public void Select(int index)
     {
         if (index < 0 || index >= items.Length) return;
-        items[index].OnClick();              
-        Hide();                               
+        items[index].OnClick();
+        Hide();
     }
 
     void Next()
@@ -50,7 +50,7 @@ public class LevelUp : MonoBehaviour
         {
             Item ranItem = items[ran[i]];
             if (ranItem.level == ranItem.data.damages.Length)
-                items[4].gameObject.SetActive(true);   
+                items[4].gameObject.SetActive(true);
             else
                 ranItem.gameObject.SetActive(true);
         }

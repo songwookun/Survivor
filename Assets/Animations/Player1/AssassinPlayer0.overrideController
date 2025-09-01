@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AssassinPlayer0
+  m_Controller: {fileID: 9100000, guid: 11ccceecff12bb343bee05b1735868dd, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4977ce03c0d8fb44e9ab53bd023ce66f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d921e561737c5fb4d9e93e0606f18e4f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d6208e67b3eda264fa7c91c0a0836b39, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3541b556b198efc4d958852eb6fc43ed, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ad3ef76d150c13b488ad77f4fbd7415e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ce875ce3d3bf29e47a39463ba1de9b8b, type: 2}

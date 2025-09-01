@@ -43,7 +43,7 @@ public class Item : MonoBehaviour
         int cntLen = data.counts != null ? data.counts.Length : 0;
         int idx = (dmgLen > 0) ? Mathf.Clamp(level, 0, dmgLen - 1) : 0;
 
-        switch (data.itmeType) 
+        switch (data.itmeType)
         {
             case itemData.itemType.Melee:
             case itemData.itemType.Range:
@@ -74,7 +74,7 @@ public class Item : MonoBehaviour
         int cntLen = data.counts != null ? data.counts.Length : 0;
         int idx = (dmgLen > 0) ? Mathf.Clamp(level, 0, dmgLen - 1) : 0;
 
-        switch (data.itmeType) 
+        switch (data.itmeType)
         {
             case itemData.itemType.Melee:
             case itemData.itemType.Range:
