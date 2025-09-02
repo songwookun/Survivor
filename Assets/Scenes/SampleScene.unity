@@ -298,6 +298,8 @@ MonoBehaviour:
   animcon:
   - {fileID: 22100000, guid: 4e688487865a84842b6b60e2cda6efc8, type: 2}
   - {fileID: 22100000, guid: aead7e7b0e401ae4f9af8af579eea919, type: 2}
+  - {fileID: 22100000, guid: fbab8678c9f38ea42ba8f0c0a4d58807, type: 2}
+  - {fileID: 22100000, guid: 1220efca6666fa14abf35a26e82428d4, type: 2}
 --- !u!114 &13523929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,7 +764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6037736, g: 0.4588469, b: 0.11107157, a: 1}
+  m_Color: {r: 0.7830189, g: 0.34349412, b: 0.44116634, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11576,7 +11578,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1442216141, guid: 8f7a60065e3984c489b9c4d41bc3dc4e, type: 3}
+  m_Sprite: {fileID: -1743896084069932923, guid: 6792f6c3e90c8ce4a8f7162452d8822e,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12077,7 +12080,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 938132271, guid: 57a1443e67528144aa07582927559650, type: 3}
+  m_Sprite: {fileID: 3806109922786768697, guid: 3b2ef19781253c24a8d5890ebb12eb61,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12338,7 +12342,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 938132271, guid: 57a1443e67528144aa07582927559650, type: 3}
+  m_Sprite: {fileID: 3806109922786768697, guid: 3b2ef19781253c24a8d5890ebb12eb61,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12537,7 +12542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1885962, g: 0, b: 0.5377358, a: 1}
+  m_Color: {r: 0.7169812, g: 0.31452474, b: 0.34878576, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15254,7 +15259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC804\uC124 \uB2CC\uC790(\uC5EC)"
+  m_Text: "\uD2B9\uAE09 \uB2CC\uC790"
 --- !u!222 &1448704247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25231,7 +25236,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1442216141, guid: 8f7a60065e3984c489b9c4d41bc3dc4e, type: 3}
+  m_Sprite: {fileID: -1743896084069932923, guid: 6792f6c3e90c8ce4a8f7162452d8822e,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
